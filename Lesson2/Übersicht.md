@@ -1,11 +1,25 @@
 # Inhalte Termin 2
 
 ## HTML-Seite - Gerüst
-Wir hatten im ersten Teil gelernt, dass JavaScript normalerweise im Browser von der JavaScript-Engine ausgeführt wird. Dazu muss euer JavaScript-Quelltext in ein HTML-Document eingebunden werden.<>
+Wir hatten im ersten Teil gelernt, dass JavaScript normalerweise im Browser von der JavaScript-Engine ausgeführt wird. Dazu muss euer JavaScript-Quelltext in ein HTML-Document eingebunden werden. Das sieht dann so aus:
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document-Title</title>
+</head>
+<body>
+    <h1>Headline 1</h1>
+    <script>
+        alert('Hallo, JavaScript-Welt!');
+    </script>
+</body>
+</html>
+```
 
 Das Gerüst für eine HTML-Seite mit JavaScript findet ihr hier: [example1/index.html](example1/index.html)
 
-Innerhalb der Script Tags könnt ihr dann Euren JavaScript-Code einfügen.
+Innerhalb der `<script>`-Tags könnt ihr dann Euren JavaScript-Code einfügen.
 
 Ihr habt im ersten Teil des Bootcamps [VS.Code](https://code.visualstudio.com/) auf euren Rechnern installiert. VS.Code ist ein schönes Beispiel, wie umfangreich eine JavaScript-Applikation werden kann. Es ist selbst in JavaScript programmiert. Einer der Vorteile von VS.Code ist die einfache Erweiterbarkeit. Es gibt hundert, teils recht gute, Extensions. 
 
@@ -36,6 +50,6 @@ Das sieht dann so aus, wenn ihr das Skript _index.js_ laden wollt:
 </body>
 ```
 Falls ihr auf älteren Code stoßt, kann es passieren, dass im `<script>`-Tag noch ein `type='text/javascript` steht. Das ist überholt und heute nicht mehr erforderlich, da JavaScript mittlerweile der Default-Skripttyp ist.
-Das ist also überholt:
+Sowas braucht ihr also nicht mehr:
 `<script type='text/javascript' src="index.js"></script>` 
 
