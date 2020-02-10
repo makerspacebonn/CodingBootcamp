@@ -1,0 +1,1 @@
+document.write('Hello from my index.js script!');
