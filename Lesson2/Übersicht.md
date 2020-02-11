@@ -58,14 +58,16 @@ Variablen sind ein "benamter" Speicher für Daten. Wir benutzen sie, um uns Sach
 
 So legen wir eine Variable an:
 ```javascript 
-let kiste
+let kiste;
 kiste = 'Stifte';
 
 alert(kiste);
  ```
 
 Wir können auch mehrere Variablen in einer Zeile anlegen:
-`let kiste1 = 'Stifte', kiste2 = 'Scheren';`
+```
+let kiste1 = 'Stifte', kiste2 = 'Scheren';
+ ```
 
 Das ist das Gleiche wie:
 
