@@ -30,7 +30,7 @@ Bitte fügt bei euch folgende Extensions hinzu:
 - **Live Server** - Das ist ein kleiner Webserver, der eure HTML-Seiten immer neu ausliefert, wenn ihr sie in VS.Code ändert. Ihr braucht also nicht mehr den Reload-Button im Browser benutzen. Einfach die geänderte HTML-Datei in VS.Code speichern, und schon stellt der _Live Server_ sie neu dar. 
 Ihr könnt nach der Installation der Extension den Live Server für jede HTML-Seite starten, indem ihr in VS.Code einen Rechtsklick auf die HTML-Datei ausführt und *Open with Live Server* auswählt.
 
-## Getrente JavaScript-Datei
+## Getrennte JavaScript-Datei
 
 Ihr könnt bereits euren JavaScript-Code direkt im HTML ausführen. 
 ```javascript
