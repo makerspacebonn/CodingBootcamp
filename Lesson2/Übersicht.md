@@ -53,3 +53,32 @@ Falls ihr auf älteren Code stoßt, kann es passieren, dass im `<script>`-Tag no
 Sowas braucht ihr also nicht mehr:
 `<script type='text/javascript' src="index.js"></script>` 
 
+## Variablen
+Variablen sind ein "benamter" Speicher für Daten. Wir benutzen sie, um uns Sachen zu merken. Über ihren Namen können wir die Inhalte dann wiederfinden.
+
+So legen wir eine Variable an:
+```javascript 
+let kiste
+kiste = 'Stifte';
+
+alert(kiste);
+ ```
+
+Wir können auch mehrere Variablen in einer Zeile anlegen:
+`let kiste1 = 'Stifte', kiste2 = 'Scheren';`
+
+Das ist das Gleiche wie:
+
+```javascript
+let kiste1 = 'Stifte';
+let kiste2 = 'Scheren';
+ ```
+
+Früher wurden in JavaScript Variablen oft mit `var` statt `let`definiert:
+```javascript
+var kiste = 'stifte';
+ ```
+
+Wir benutzen das nicht mehr, ihr solltet es aber wissen, um fremden Code zu verstehen.
+
+
