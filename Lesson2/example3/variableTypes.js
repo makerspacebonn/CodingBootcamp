@@ -24,3 +24,18 @@ alert(x); //Gibt undefined aus. Der Wert ist nicht zugewiesen.
 // Object
 // Objects sind komplexe Datentypen, die typischerweise aus mehreren anderen Zusammengesetz sind.
 
+typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)

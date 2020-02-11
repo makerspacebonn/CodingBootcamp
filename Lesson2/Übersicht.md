@@ -30,7 +30,7 @@ Bitte fügt bei euch folgende Extensions hinzu:
 - **Live Server** - Das ist ein kleiner Webserver, der eure HTML-Seiten immer neu ausliefert, wenn ihr sie in VS.Code ändert. Ihr braucht also nicht mehr den Reload-Button im Browser benutzen. Einfach die geänderte HTML-Datei in VS.Code speichern, und schon stellt der _Live Server_ sie neu dar. 
 Ihr könnt nach der Installation der Extension den Live Server für jede HTML-Seite starten, indem ihr in VS.Code einen Rechtsklick auf die HTML-Datei ausführt und *Open with Live Server* auswählt.
 
-## Getrennte JavaScript-Datei
+## Getrente JavaScript-Datei
 
 Ihr könnt bereits euren JavaScript-Code direkt im HTML ausführen. 
 ```javascript
@@ -80,5 +80,33 @@ var kiste = 'stifte';
  ```
 
 Wir benutzen das nicht mehr, ihr solltet es aber wissen, um fremden Code zu verstehen.
+
+Ihr könnt Variablen kopieren:
+```javascript
+let kiste = 'Stifte';
+let neueKiste;
+neueKiste = kiste;
+
+// oder: let neueKiste = kiste1;
+
+alert(kiste);
+alert(neueKiste);
+ ```
+
+Oder neue Sachen zuordnen:
+```javascript
+let kiste = 'Stifte';
+kiste = 'Kekse'; // Nun sind Kekse in der Kiste;-)
+ ```
+
+Variablennamen dürfen nur aus Buchstaben, Zahlen und den Sonderzeichen '$' und '_' bestehen. An erster Stelle darf keine Zahl stehen.
+
+```javascript
+let _guterVariablenname123;
+let 1dasGehtNicht! //Falsch!!1!
+ ```
+Wir benutzen camelCase. Wie beim Kamel:-) Jedes neue Wort ist ein Höcker...
+
+Hier kommt **CONST**
 
 
